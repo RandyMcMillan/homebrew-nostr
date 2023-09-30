@@ -7,7 +7,7 @@ This is a [homebrew tap](https://docs.brew.sh/Taps) for [nostr](https://nostr.co
 First install [homebrew](https://brew.sh/). Then add the tap:
 
 ```
-brew tap nostorg/nostr
+brew tap nostorg/homebrew-nostr
 ```
 
 Finally install a `<formula>` or `<cask>` (such as `gossip` or `lume`):
@@ -34,6 +34,8 @@ To install the cask (DMG/Application release build):
 
 ```
 brew install --cask gossip
+OR
+brew install --cask --no-quarantine nostorg/homebrew-nostr/gossip
 ```
 
 ## Documentation
